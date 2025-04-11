@@ -1,28 +1,25 @@
-// import style from './App.module.css'
+import './App.module.css'
+import { Btn } from './components/btn'
 import { Menu } from './components/menu'
 
 function App() {
-  return (
+  return(
     <>
-     <Menu option01='Sessão 01' option02='Sessão 02' option03='Contato'/>
-     <main>
-      <section id='s1'>
-        <h2>sessao 1</h2>
-      </section>
-      <section id='s2'>
-        <h2>sessao 2</h2>
-      </section>
-      <section id='s3'>
-        <h2>contato</h2>
-      </section>
-     </main>
-     <p>GANHEI UM PLAYSTATION 2</p>
-<footer>
-  <adress>
-    <p>kkkkk</p>
-  </adress>
-  <p>Copyright sr barriga</p>
-</footer>
+      <Menu s1="batata" s2="morango" s3="mandioca"/>
+      <main>
+        <section id='s1'>
+          primeira
+          <Btn text='batata' func="#s2"/>
+        </section>
+        <section id='s2'>
+          segunda <br />
+            <Btn text='mandioca' func="#s3"/>
+        </section>
+        <section id='s3'>
+          terceira <br />
+            <Btn text='morango' func='#s1'/>
+          </section>
+      </main>
     </>
   )
 }
