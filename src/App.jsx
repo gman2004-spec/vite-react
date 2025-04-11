@@ -12,7 +12,17 @@ function App() {
       <section id='s2'>
         <h2>sessao 2</h2>
       </section>
+      <section id='s3'>
+        <h2>contato</h2>
+      </section>
      </main>
+     <p>GANHEI UM PLAYSTATION 2</p>
+<footer>
+  <adress>
+    <p>kkkkk</p>
+  </adress>
+  <p>Copyright sr barriga</p>
+</footer>
     </>
   )
 }
