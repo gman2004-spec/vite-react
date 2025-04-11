@@ -20,6 +20,13 @@ function App() {
             <Btn text='Contact' func='#s1'/>
           </section>
       </main>
+       <p>GANHEI UM PLAYSTATION 2</p>
+ <footer>
+   <adress>
+     <p>kkkkk</p>
+   </adress>
+   <p>Copyright sr barriga</p>
+ </footer>
     </>
   )
 }
