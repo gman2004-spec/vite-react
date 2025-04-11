@@ -1,19 +1,23 @@
 import './App.module.css'
+import { Btn } from './components/btn'
 import { Menu } from './components/menu'
 
 function App() {
   return(
     <>
-      <Menu s1="SESSÃO 1" s2="SESSÃO 2" s3="SESSÃO 3"/>
+      <Menu s1="Session01" s2="Session02" s3="Contact"/>
       <main>
         <section id='s1'>
-         <h2>SESSÃO 1</h2>
+          primeira
+          <Btn text='Session01' func="#s2"/>
         </section>
         <section id='s2'>
-          <h2>SESSÃO 2</h2>
+          segunda <br />
+            <Btn text='Session02' func="#s3"/>
         </section>
         <section id='s3'>
-          <h2>SESSÃO 3</h2>
+          terceira <br />
+            <Btn text='Contact' func='#s1'/>
           </section>
       </main>
     </>
