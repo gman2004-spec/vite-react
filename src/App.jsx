@@ -1,7 +1,7 @@
 import './App.module.css'
 import { Btn } from './components/btn'
 import { Menu } from './components/menu'
-import { footer } from './components/footer'
+import { Footer } from './components/footer'
 
 function App() {
   return(
