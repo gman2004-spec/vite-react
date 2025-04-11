@@ -1,6 +1,7 @@
 import './App.module.css'
 import { Btn } from './components/btn'
 import { Menu } from './components/menu'
+import { footer } from './components/footer'
 
 function App() {
   return(
@@ -20,15 +21,10 @@ function App() {
             <Btn text='Contact' func='#s1'/>
           </section>
       </main>
-       <p>GANHEI UM PLAYSTATION 2</p>
- <footer>
-   <adress>
-     <p>kkkkk</p>
-   </adress>
-   <p>Copyright sr barriga</p>
- </footer>
+
     </>
   )
 }
 
 export default App
+
