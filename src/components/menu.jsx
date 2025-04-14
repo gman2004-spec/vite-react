@@ -5,7 +5,8 @@ export const Menu = (props) => {
             <nav className={style.navBar}>
                 <p><a href="#s1">{props.option01}</a></p>
                 <p><a href="#s2">{props.option02}</a></p>
-                <p><a href={'/contact'}>{props.option03}</a></p>
+                <p><a href='/contact'>{props.option03}</a></p>
+                <p><a href='/calcs'>{props.option04}</a></p>
             </nav>
     )
 }
