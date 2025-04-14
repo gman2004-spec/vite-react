@@ -1,7 +1,5 @@
 import './App.module.css'
-import { Cards } from './assets/mock/cards'
 import { Menu } from './components/menu'
-//import { img01 } from './assets/images/console.jpg'
 import { Btn } from './components/btn.jsx'
 import { useState } from 'react'
 
