@@ -3,6 +3,8 @@ import { Menu } from './components/menu'
 import { Btn } from './components/btn.jsx'
 import { useState } from 'react'
 import { Calcs } from './Calcs.jsx'
+import { Req } from './Req.jsx'
+import { Card } from './components/card.jsx'
 
 function App() {
   const defaultPhoneNumber = "5541999999999"
@@ -57,3 +59,5 @@ function App() {
 }
 
 export default App
+
+
