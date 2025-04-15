@@ -15,8 +15,10 @@ export default function Req(){
         api.get(`/character/?page=${page}&name=${searchName}`).then((response) => {
             setData(response.data.results)
         }).catch((error) => {
-            console.log(error)
+            if(error.response.status === 404){
             setErro(true)
+            }
+            console.log(error)
         })
     }, [page, searchName])
     console.log(data)
