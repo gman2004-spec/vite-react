@@ -11,6 +11,8 @@ import App from './App.jsx'
 import Contact from './Contact.jsx'
 
 import { Analytics } from "@vercel/analytics/react"
+import Req from './Req.jsx';
+import Calcs from './Calcs.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact/>,
+  },
+  {
+    path: "/calcs",
+    element: <Calcs/>
+  },
+  {
+    path: "/requisicao",
+    element: <Req/>
   },
 ]);
 
