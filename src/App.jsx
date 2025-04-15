@@ -34,7 +34,6 @@ function App() {
       <Menu option01="Session01" option02="Session02" option03="Contact" option04="Calculos"/>
       <main>
         <section id='s1'>
-         {/* <img src={img01} alt="o amor esta no ar" width={200} height={"auto"}/> */}
           primeira
           <Btn text={"Session01"} func={"#s3"}/>
         </section>
