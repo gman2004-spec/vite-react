@@ -2,6 +2,7 @@ import './App.module.css'
 import { Menu } from './components/menu'
 import { Btn } from './components/btn.jsx'
 import { useState } from 'react'
+import { Calcs } from './Calcs.jsx'
 
 function App() {
   const defaulPhoneNumber = "5541999999999"
